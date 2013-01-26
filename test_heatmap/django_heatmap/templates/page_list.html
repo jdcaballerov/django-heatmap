@@ -1,0 +1,10 @@
+{% if page_list %}
+	<H1> Pages </H1>
+    <ul>
+    {% for page in page_list %}
+        <li><a href= {% url show_click_events page.res_x page.res_y page.height page.width page.url %}>{{ page.url }} @ {{ page.res_x}}x{{ page.res_y }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No pages are available.</p>
+{% endif %}

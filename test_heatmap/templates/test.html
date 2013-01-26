@@ -1,0 +1,1204 @@
+{% extends "bbase.html" %}
+
+{% block content %}
+    <div class="main">
+<link href="http://www.allwebdevhelp.com/css/common.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="all">
+		
+		<div id="top_logo_links_area_wrap">
+		<div id="top_logo_links_area">
+          <table width="992" height="100%" border="0" cellpadding="0" cellspacing="0" id="logo_main_nav">
+              
+              <tr>
+                <td width="992" height="0" align="left" valign="top">
+				
+					<div id="logo">
+						<a href="http://www.allwebdevhelp.com/">
+							<img src="http://www.allwebdevhelp.com/images/logo/logo.gif" border="0" alt="AllSeoHelp.com" />
+						</a>
+					</div>
+					
+					<div id="top_nav_links_container">		
+					</div>
+					
+					<div id="top_header_search_container">
+						<div id="header_search_text">
+							Search the Entire Site
+						</div>
+						<div id="search_header_search_box">
+							<form action="http://www.allwebdevhelp.com/search.php" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-9922184077056116:5923764609" />
+    <input type="hidden" name="cof" value="FORID:10" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="30" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+						</div>
+					</div>
+					
+				</td>
+              </tr>
+          </table>
+        </div>		
+		</div>
+		          
+		
+		<div id="complete_area_under_logo_links-wrap">
+		<div id="complete_area_under_logo_links"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+	<td>
+
+	<div id="main_left_col">
+	
+	<div id="container_left_menu">
+	<div id="left_menu_top">
+	</div>
+	<div id="container_left_menu_inner">
+		<div id="left_menu_contents">
+			<ul> 
+				<li>
+					<a href="http://www.allwebdevhelp.com/php/">PHP</a>
+				</li>
+				<li>
+					<a href="http://www.allwebdevhelp.com/javascript/">JavaScript</a>
+				</li>
+				<li>
+					<a href="http://www.allwebdevhelp.com/css-styles/">CSS</a>
+				</li>
+				<li>
+					<a href="http://www.allwebdevhelp.com/html/">HTML</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="left_menu_bottom">
+	</div>
+</div>		
+	
+	</div>		
+	
+	
+	<div id="main_body_col">
+					
+		<div id="main_body_area">
+			
+			<div class="KonaBody"><div id="eh_section_title"><h1 class="h1_section_title">HTML - Random/fixed Background</h1></div></div>
+			
+			<div class="search_box_eh_how_to">
+							</div>
+	   
+	   		<table width="100%">
+				<tr>
+					<td>
+						<div id="AT_button_container_tutorials" style="margin-top:5px;">					</div>
+					</td>
+				</tr>
+			</table>
+	   
+	   		
+<table width="100%">
+	<tr>
+		<td align="left">
+			<div>
+				<script type="text/javascript"><!--
+google_ad_client = "ca-pub-9922184077056116";
+/* Generic - Large Rectangle */
+google_ad_slot = "1401197062";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>			</div>
+		</td>
+		<td align="right">
+			<div>
+				<script type="text/javascript"><!--
+google_ad_client = "ca-pub-9922184077056116";
+/* Generic - Large Rectangle */
+google_ad_slot = "1401197062";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>			</div>
+		</td>
+	</tr>
+</table>
+
+<br /><br /><br />
+
+<div class="page_content_container KonaBody">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<!--<a href="http://www.allwebdevhelp.com/ev.php?i=50787" rel="nofollow" target="_blank">Random/fixed Background</a>-->
+					<h2 class="page_content_topic">Random/fixed Background</h2>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=140929" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+									</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto; margin-left:10px;">I used this code here but it doesnt seem to work for GoogleChrome browser well, as it did for the others. Is there a code that will work for all the browsers?<br />
+<br />
+ 
+	 HTML Code:<br />
+	
+<pre class="code_block_container">&lt;html&gt;
+
+&lt;head&gt;
+&lt;script language=&quot;javascript&quot;&gt;
+function randomBackground()
+  {
+  var myImages = Array();
+  myImages&#91;0&#93; = 'xxx.jpg';
+  myImages&#91;1&#93; = 'xxx.jpg';
+
+  myRandomNumber = Math.floor(Math.random()*myImages.length);
+
+  document.body.style.backgroundImage = 'URL('+myImages&#91;myRandomNumber&#93;+')';
+  }
+&lt;/script&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+body
+  {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body onload=&quot;randomBackground();&quot;&gt;&lt;/body&gt;
+</pre>
+<br /><br /></div>
+</div>
+
+
+<hr>
+
+<h2>Similar Tutorials</h2>
+
+
+
+<div class="top_link_container">
+	<a href="#1">Random/fixed Background</a>
+</div><div class="top_link_container">
+	<a href="#2">Fixed Background???</a>
+</div><div class="top_link_container">
+	<a href="#3">Fixed Background</a>
+</div><div class="top_link_container">
+	<a href="#4">Fixed Enlarged Background</a>
+</div><div class="top_link_container">
+	<a href="#5">How To Use Imagemap On Fixed Background?</a>
+</div><div class="top_link_container">
+	<a href="#6">Fixed Background Image In &lt;div&gt;</a>
+</div><div class="top_link_container">
+	<a href="#7">Fixed Background With Scrolling Foreground</a>
+</div><div class="top_link_container">
+	<a href="#8">Lost Text &amp; Documents After Adding Fixed Background Image</a>
+</div><div class="top_link_container">
+	<a href="#9">Random Table Background Image Help</a>
+</div><div class="top_link_container">
+	<a href="#10">A Random Background That Stretches To The Browser Window</a>
+</div><div class="top_link_container">
+	<a href="#11">Need Help With Fixed Background Image As Image Map</a>
+</div><div class="top_link_container">
+	<a href="#12">How To Have Fixed Windo</a>
+</div><div class="top_link_container">
+	<a href="#13">Fixed Pop-up Window??</a>
+</div><div class="top_link_container">
+	<a href="#14">Fixed Div Boxes</a>
+</div><div class="top_link_container">
+	<a href="#15">Fixed Position And Iframe</a>
+</div><div class="top_link_container">
+	<a href="#16">Fixed Sized Table</a>
+</div><div class="top_link_container">
+	<a href="#17">Fixed That Bar At The Bottom Like Facebook!</a>
+</div><div class="top_link_container">
+	<a href="#18">Need Some Help With Combining Fixed And % On Tables</a>
+</div><div class="top_link_container">
+	<a href="#19">Fixed Header Are There Any Working</a>
+</div><div class="top_link_container">
+	<a href="#20">Fixed Marquess Width ??</a>
+</div><div class="top_link_container">
+	<a href="#21">Floating/fixed Text</a>
+</div><div class="top_link_container">
+	<a href="#22">Fixed Bars On A Blog?</a>
+</div><div class="top_link_container">
+	<a href="#23">Centering, Fixed Position</a>
+</div><div class="top_link_container">
+	<a href="#24">Fixed Vs. Liquid Template</a>
+</div><div class="top_link_container">
+	<a href="#25">Fixed Header And Menu?</a>
+</div><br><br><hr><hr><br><br><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="1"></a>
+						<h2 class="page_content_topic">Random/fixed Background</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=50787">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=140929" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="KonaBody"><div style="max-height:500px; overflow:auto;">I used this code here but it doesnt seem to work for GoogleChrome browser well, as it did for the others. Is there a code that will work for all the browsers?<br />
+<br />
+ 
+	 HTML Code:<br />
+	
+<pre class="code_block_container">&lt;html&gt;
+
+&lt;head&gt;
+&lt;script language=&quot;javascript&quot;&gt;
+function randomBackground()
+  {
+  var myImages = Array();
+  myImages&#91;0&#93; = 'xxx.jpg';
+  myImages&#91;1&#93; = 'xxx.jpg';
+
+  myRandomNumber = Math.floor(Math.random()*myImages.length);
+
+  document.body.style.backgroundImage = 'URL('+myImages&#91;myRandomNumber&#93;+')';
+  }
+&lt;/script&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+body
+  {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body onload=&quot;randomBackground();&quot;&gt;&lt;/body&gt;
+</pre>
+<br /><br /></div></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="2"></a>
+						<h2 class="page_content_topic">Fixed Background???</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=76555">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=84694" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="KonaBody"><div style="max-height:500px; overflow:auto;">hi guys im after a simple code so that the background on my forum is fixed and only the foreground moves up and down, someone must know iv looked all over the place and cant find how anywhere,someone help please<br />
+<br />
+Cheers<br />
+<br />
+Jacob<br /></div></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="3"></a>
+						<h2 class="page_content_topic">Fixed Background</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=50812">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=140909" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="KonaBody"><div style="max-height:500px; overflow:auto;">Hello. I need some assistance in figure out how to make a fixed/linkable/image.  I used this code here  
+	 HTML Code:<br />
+	
+<pre class="code_block_container">&lt;body style=&quot;background-attachment: fixed; background-repeat: no-repeat;&quot; background=&quot;XXX.jpg&quot;&gt;
+</pre>
+<br /> which worked great in keeping its place. Then I added  
+	 HTML Code:<br />
+	
+<pre class="code_block_container">&lt;a href=&quot;http://www.davesite.com/&quot;&gt;
+</pre>
+<br /> before and after but no luck. Im trying to get that link to work for the background too, but its not working out at all. &quot;Sadly no HTML skills whatsoever&quot;<br /></div></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="4"></a>
+						<h2 class="page_content_topic">Fixed Enlarged Background</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=28403">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=117454" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="KonaBody"><div style="max-height:500px; overflow:auto;"></div></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="5"></a>
+						<h2 class="page_content_topic">How To Use Imagemap On Fixed Background?</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=66341">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=98193" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="KonaBody"><div style="max-height:500px; overflow:auto;">I have a site with text scrolling over a fixed background - mbccc.net - and I want the background to be an imagemap so's I can link from different parts of it.<br />
+<br />
+ But I can't make it work.<br />
+<br />
+ I can make an imagemap work alright. But not on a fixed background image.<br />
+<br />
+ Is it possible or does making the image a 'background' image and 'fixing' it in position mean that it can't be referenced as an imagemap any more?<br />
+<br />
+ regards,<br />
+<br />
+ ab <br /></div></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="6"></a>
+						<h2 class="page_content_topic">Fixed Background Image In &lt;div&gt;</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=65251">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=98936" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">This one has been giving me a headache for days now.   I wish to place<br />
+an image in the background so my text can scroll while the image<br />
+remains still:<br />
+<br />
+&lt;div id =&quot;scroll&quot; style=&quot;padding:0px; font-size:0px; overflow:hidden;<br />
+background-image:url(files/images/b2l.jpg); float:left; height: 480px;<br />
+width: 360px; color: #FFFFFF; font-family:Arial, Helvetica, sans-<br />
+serif;&quot;&gt;<br />
+<br />
+http://www.muskmagazine.com/wintertrendstest.html<br />
+<br />
+This works fine on Safari and Firefox but when viewed on IE6 the image<br />
+moves along with the text.  I have been playing with position:fixed;<br />
+with no luck.  Soon as I get it working on IE6 the image is miss-<br />
+aligned in Safari/ Firefox.<br />
+<br />
+Please someone have mercy!<br />
+Justin<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="7"></a>
+						<h2 class="page_content_topic">Fixed Background With Scrolling Foreground</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=54230">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=110607" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">can someone outline the steps to making a page with a fixed background and a scrolling foreground such as can be found here?<br />
+<br />
+http://www.paul-wallas.co.uk/<br />
+<br />
+i've looked at the code and what information i've found on the web but i don't see how it is done.<br />
+<br />
+<br />
+tia,<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="8"></a>
+						<h2 class="page_content_topic">Lost Text &amp; Documents After Adding Fixed Background Image</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=45955">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=145893" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Hi All<br />
+<br />
+This is my first post so i hope I provide all the info you need, to be able to help.<br />
+<br />
+I am working inside Macromedia UltraDev as this is waht I was taught with over a decade ago.<br />
+<br />
+Problem started when I set a fixed background image to the page . . . dropdown menu still displays, but everything else (text &amp; pics) in table seem to be hiddden behind the background image.<br />
+<br />
+here is the code<br />
+ 
+	 HTML Code:<br />
+	
+<pre class="code_block_container">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml2/DTD/xhtml1-strict.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+
+&lt;META HTTP-EQUIV=&quot;Cache-Control&quot; CONTENT=&quot;no-cache&quot;&gt;
+&lt;META HTTP-EQUIV=&quot;Pragma&quot; CONTENT=&quot;no-cache&quot;&gt;
+&lt;META HTTP-EQUIV=&quot;Expires&quot; CONTENT=&quot;0&quot;&gt;
+
+
+&lt;style type=&quot;text/css&quot;&gt;
+html, body {height:100%; margin:0; padding:0;}
+#page-background {position:fixed; top:0; left:0; width:100%; height:100%;}
+#content {position:relative; z-index:1; padding:10px;}
+&lt;/style&gt;
+
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;dropdown/dropdown.css&quot; /&gt;
+&lt;script src=&quot;dropdown/btp.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+&lt;meta http-equiv=&quot;Content-Language&quot; content=&quot;en-au&quot;&gt;
+&lt;meta name=&quot;GENERATOR&quot; content=&quot;Microsoft FrontPage 5.0&quot;&gt;
+&lt;meta name=&quot;ProgId&quot; content=&quot;FrontPage.Editor.Document&quot;&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=windows-1252&quot;&gt;
+
+&lt;title&gt;Barcaldine Tourist Park&lt;/title&gt;
+
+
+&lt;/head&gt;
+
+
+
+&lt;body&gt;
+
+&lt;div align=&quot;center&quot;&gt;  &lt;center&gt;
+    &lt;table width=&quot;1000&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; height=&quot;100%&quot;&gt;
+      &lt;tr&gt; 
+        &lt;td height=&quot;54&quot; colspan=&quot;2&quot;&gt; 
+          &lt;div align=&quot;center&quot;&gt;
+            &lt;h1&gt;&lt;font face=&quot;Georgia, Times New Roman, Times, serif&quot; size=&quot;+7&quot;&gt;Barcaldine 
+              Tourist Park&lt;/font&gt;&lt;/h1&gt;
+          &lt;/div&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr bgcolor=&quot;#FFFFFF&quot;&gt; 
+        &lt;td height=&quot;146&quot; colspan=&quot;2&quot;&gt; &lt;span class=&quot;preload1&quot;&gt;&lt;/span&gt; &lt;span class=&quot;preload2&quot;&gt;&lt;/span&gt; 
+          &lt;ul id=&quot;nav&quot;&gt;
+            &lt;li class=&quot;top&quot;&gt;&lt;a href=&quot;#nogo1&quot; class=&quot;top_link&quot;&gt;&lt;span&gt;Home&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;top&quot;&gt;&lt;a href=&quot;#nogo2&quot; class=&quot;top_link&quot;&gt;&lt;span&gt;Park Features&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;top&quot;&gt;&lt;a href=&quot;#nogo22&quot; class=&quot;top_link&quot;&gt;&lt;span&gt;Accommodation&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;top&quot;&gt;&lt;a href=&quot;#nogo27&quot; class=&quot;top_link&quot;&gt;&lt;span&gt;Our Tarrifs&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;top&quot;&gt;&lt;a href=&quot;#nogo57&quot; class=&quot;top_link&quot;&gt;&lt;span&gt;Special Offers 
+              &lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;top&quot;&gt;&lt;a href=&quot;#nogo57&quot; class=&quot;top_link&quot;&gt;&lt;span&gt;Local Photos&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;top&quot;&gt;&lt;a href=&quot;#nogo57&quot; class=&quot;top_link&quot;&gt;&lt;span&gt;Contact Us&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;top&quot;&gt;&lt;a href=&quot;#nogo53&quot; id=&quot;shop&quot; class=&quot;top_link&quot;&gt;&lt;span class=&quot;down&quot;&gt;Local 
+              Attractions&lt;/span&gt;&lt;/a&gt; 
+              &lt;ul class=&quot;sub&quot;&gt;
+                &lt;li&gt;&lt;a href=&quot;#nogo54&quot;&gt;Australian Workers Heritage Centre&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#nogo55&quot;&gt;Tree of Knowledge&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#nogo56&quot;&gt;Artesian Country Tours&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr bgcolor=&quot;#FFFFFF&quot;&gt; 
+        &lt;td rowspan=&quot;2&quot; width=&quot;99&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt; 
+        &lt;td rowspan=&quot;5&quot; width=&quot;895&quot; bgcolor=&quot;#FFFFFF&quot;&gt; 
+          &lt;div align=&quot;center&quot;&gt;&lt;/div&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr bgcolor=&quot;#FFFFFF&quot;&gt; 
+        &lt;td width=&quot;99&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr bgcolor=&quot;#FFFFFF&quot;&gt; 
+        &lt;td width=&quot;99&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr bgcolor=&quot;#FFFFFF&quot;&gt; 
+        &lt;td width=&quot;99&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr bgcolor=&quot;#FFFFFF&quot;&gt; 
+        &lt;td width=&quot;99&quot; height=&quot;23&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/center&gt;&lt;/div&gt;
+  
+&lt;div id=&quot;page-background&quot;&gt;&lt;img src=&quot;images/bg.jpg&quot; width=&quot;100%&quot; height=&quot;100%&quot; alt=&quot;Smile&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;content&quot;&gt;
+	&lt;/div&gt;
+
+&lt;/body&gt;
+
+
+
+&lt;/html&gt;
+</pre>
+<br /><br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="9"></a>
+						<h2 class="page_content_topic">Random Table Background Image Help</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=28328">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=117361" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Hello everyone,<br />
+<br />
+I'm new here and currently reaquainted with HTML as I'm trying to help out a friend with his website.  I am trying to randomize a background image in a table and I can't seem to get anything to work.  I have searched up and down this forum and others, have tried several scripts that seem to work for others, and I'm still at square one.<br />
+<br />
+I most recently tried a script I found here on this forum with no success.<br />
+<br />
+Here is my code...<br />
+<br />
+ 
+	 Code:<br />
+	
+<pre class="code_block_container">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+...
+...
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--
+
+  var pic=new Array();
+       pic[0]=&quot;img/home_back1.jpg&quot;;
+       pic[1]=&quot;img/home_back2.jpg&quot;;
+       pic[2]=&quot;img/home_back3.jpg&quot;;
+
+  var num=Math.floor(Math.random()*pic.length);
+
+window.onload=function() {
+     document.getElementById('wrapper').style.backgroundImage='url('+pic[num]+')';
+}
+
+//--&gt;
+&lt;/script&gt;
+
+
+&lt;/head&gt;
+
+&lt;table id=&quot;wrapper&quot; width=&quot;955&quot; height=&quot;600&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; &gt;
+...
+...
+...
+&lt;/table&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<br />If anyone has any insight as to what I may be doing wrong or how I can fix this it would be much appreciated as I'm pulling my hair out trying to get this to work.  Thanks!<br />
+<br />
+Unclejunebug<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="10"></a>
+						<h2 class="page_content_topic">A Random Background That Stretches To The Browser Window</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=69965">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=94771" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">ive put a background in to my html document that stretches to fit the size of the browser window. heres the code:<br />
+<br />
+&lt;style type=&quot;text/css&quot;&gt;html {height:100%;}body {height:100%;margin:0;padding:0;}#bg {position: absolute;top:0;left:0;width:100%;height:100%;}#content { position:absolute;z-index:1; width:100%;}&lt;/style&gt;<br />
+&lt;!--[if IE 6]&gt;&lt;style type=&quot;text/css&quot;&gt;html {overflow-y:hidden;}body {overflow-y:auto;}#bg {position:absolute;z-index:-1;}#content {position:static;}&lt;/style&gt;&lt;![endif]--&gt;<br />
+&lt;script type=&quot;text/javascript&quot; src=&quot;swfobject.js&quot;&gt;&lt;/script&gt;<br />
+&lt;/head&gt;<br />
+<br />
+&lt;body bgcolor=&quot;#000000&quot; text=&quot;#999999&quot; link=&quot;#999999&quot; vlink=&quot;#999999&quot; alink=&quot;#999999&quot;&gt;<br />
+&lt;div id=&quot;bg&quot;&gt;&lt;img src=&quot;NJWwallpaper01.jpg&quot; width=&quot;100%&quot; height=&quot;100%&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br />
+&lt;div id=&quot;content&quot;&gt;<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="11"></a>
+						<h2 class="page_content_topic">Need Help With Fixed Background Image As Image Map</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=69548">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=95222" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Hi,<br />
+<br />
+I'm a complete newb and html-challenged, so please forgive my stupid questions.<br />
+<br />
+This is what I want for the personal website I'm making:
+
+ a fixed image as the background that covers the entire screen regardless of what screen resolution a user's computer has - this much I've managed with CSS...I think (like this right? http://www.geocities.com/serenamonster/index.htm )
+
+
+ clickable regions on this background image to use for navigation to various parts of the site. Or in other words, the background image as an image map. - this I'm having trouble with, because you have to designate the picture as a set # of pixels in dimension to make an image map right? and if I do that to my background image, then it may display too big or too small depending on the person's screen resolution right?
+
+
+<br />
+So does anyone know how I can have clickable regions on my fixed background image without the image being too big for low resolutions or too small for high resolutions? (he  http://www.geocities.com/serenamonster/map.html the background image is fixed at 800x400. I want to make each star on the image a hyperlink to a different part of the site). I read somewhere that standard is 800x600 to fill a person's browser right? But on my computer the image only covers about 2/3 of the browser screen which is too small. How can I make it so that it fills 100% of any viewer's screen regardless of resolution? How does it look on your computer? I know these are probably just really stupid questions because I'm missing something really fundamental...but any help would be greatly appreciated! Thanks!<br />
+<br />
+~Serena<br />
+<br />
+P.S. is it possible to do mouseovers for certain coordinates on an image map?<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="12"></a>
+						<h2 class="page_content_topic">How To Have Fixed Windo</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=61582">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=102852" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">I have a control on a pop up that i cant seem to get rid of the scroll bars....How do you create a pop up window with no scroll bars I want it to use the scroll bars on the control instead....any help with this issue??<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="13"></a>
+						<h2 class="page_content_topic">Fixed Pop-up Window??</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=27016">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=120254" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;"></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="14"></a>
+						<h2 class="page_content_topic">Fixed Div Boxes</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=15904">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=137770" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Hi everyone!!<br />
+<br />
+I have a div box that has a fixed position so it is always there when you scroll down a page.... but as I have a long footer, the fixed div box goes over the footer when I scroll to the bottom of the page<br />
+<br />
+what is the best way to scroll a div box within another div box, so the div box is visible and scrolls with the page up to where the footer div starts?<br />
+<br />
+hope that makes sense?<br />
+<br />
+many thanks for you're help.<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="15"></a>
+						<h2 class="page_content_topic">Fixed Position And Iframe</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=24264">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=125504" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Hello,<br />
+<br />
+I am new in html, please could you advise with the following?<br />
+<br />
+In my page I have a caption and an iFrame where the height is big enough so that the scrollbar is never displayed - deliberately.<br />
+I can scroll the page including the iFrame content up and down normally - cool.<br />
+<br />
+Now I fix the caption. When scrolling, the iFrame content goes over the caption.  I want the iFrame content to stay below the caption. How to do this? <br />
+I don't want to use iFrame scrollbar but the window scrollbar for scrolling.<br />
+<br />
+Thank you!<br />
+ 
+	 HTML Code:<br />
+	
+<pre class="code_block_container">&lt;style&gt;
+fixed{position:fixed;color:red;}
+&lt;/style&gt;
+
+&lt;body&gt;
+&lt;fixed&gt; &lt;h1&gt;FIXED CAPTION&lt;/h1&gt; &lt;/fixed&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;iframe src=&quot;test.html&quot; width=815px height=2000px name=&quot;iFrame1&quot; scrolling=&quot;auto&quot; 
+frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt; 
+&lt;/iframe&gt; 
+&lt;/body&gt;
+</pre>
+<br /><br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="16"></a>
+						<h2 class="page_content_topic">Fixed Sized Table</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=23680">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=126689" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Hi i have a table with a picture within its only cell .  How can i lock the size of the table so that it wil not get any larger should a larger image be put in it?  I have tried setting the width and height to a fixed value but that does not seem to do keep it fixed.  <br />
+<br />
+Ideally i would like the image to resize itself to match the maximum values of the table but this i suppose will probably be a good bit harder?<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="17"></a>
+						<h2 class="page_content_topic">Fixed That Bar At The Bottom Like Facebook!</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=23714">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=126611" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Howdy,<br />
+<br />
+I wanted to have a  fixed bar at the bottom of website just like Facebook.<br />
+<br />
+Can anybody know how to do that?<br />
+<br />
+Bar should be customizable as per my requirement.<br />
+<br />
+Thanks in Advance.<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="18"></a>
+						<h2 class="page_content_topic">Need Some Help With Combining Fixed And % On Tables</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=69434">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=95310" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">i attached an image that should give an idea of what im looking for.  ive tried EVERYTHING and have no been able to get this to work.  maybe dreamweaver just isnt good for this type of things? thanks in advance.<br />
+<br />
+the website and pics are in the attached zip file<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="19"></a>
+						<h2 class="page_content_topic">Fixed Header Are There Any Working</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=26259">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=121606" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Without using an Iframe is it possible to make the header and footer fixed and keep it stable?<br />
+<br />
+I found this site with some ode but it s from years ago and not sure if it is correct way now.<br />
+<br />
+here is a link if it is allowed: http://limpid.nl/lab/css/fixed/header-and-footer<br />
+<br />
+I figure there is a reason I rarely see anything using a fixed header.  Im not sure if I have ever seen a functioning website with a fixed scrollable header ever.<br />
+<br />
+My reason for asking is to try and make a site where the navigation stays fixed on top and auction listings will scroll underneath them.<br />
+<br />
+Sorry if the link is inappropriate<br />
+<br />
+CODE:<br />
+<br />
+&lt;!-- IE in quirks mode --&gt;<br />
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot;&gt;<br />
+&lt;title&gt;Fixed header and footer&lt;/title&gt;<br />
+&lt;style type=&quot;text/css&quot;&gt;<br />
+ body{<br />
+  margin:0;<br />
+  padding:header-&lt;length&gt; 0 footer-&lt;length&gt; 0;<br />
+ }<br />
+ div#header{<br />
+  position:absolute;<br />
+  top:0;<br />
+  left:0;<br />
+  width:100%;<br />
+  height:header-&lt;length&gt;;<br />
+ }<br />
+ div#footer{<br />
+  position:absolute;<br />
+  bottom:0;<br />
+  left:0;<br />
+  width:100%;<br />
+  height:footer-&lt;length&gt;;<br />
+ }<br />
+ @media screen{<br />
+  body&gt;div#header{<br />
+   position:fixed;<br />
+  }<br />
+  body&gt;div#footer{<br />
+   position:fixed;<br />
+  }<br />
+ }<br />
+ * html body{<br />
+  overflow:hidden;<br />
+ } <br />
+ * html div#content{<br />
+  height:100%;<br />
+  overflow:auto;<br />
+ }<br />
+&lt;/style&gt;<br />
+&lt;div id=&quot;header&quot;&gt; header &lt;/div&gt;<br />
+&lt;div id=&quot;footer&quot;&gt; footer &lt;/div&gt;<br />
+&lt;div id=&quot;content&quot;&gt; content &lt;/div&gt;<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="20"></a>
+						<h2 class="page_content_topic">Fixed Marquess Width ??</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=26710">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=120800" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Hi , <br />
+<br />
+I am trying to make a plugin for Mybb Forums and I needed to get the last 10 threads scrolling up , so I used the Marquee Tag  . <br />
+When I tried to view the plugin , I found that half the thread subject only appears while the rest is invisitble(because they don't fit in the box)  , so I guessed that the Marquee's width exceeded the width of the table(box) . I tried to make a table inside the Marquee but still didn't work . I need to limit the table's width or the marquee's width so that when the thread's subject is too wide , it starts a new line , not just make the table wider .<br />
+<br />
+I hope you can understand what I mean , because I feel I can't understand it  .<br />
+<br />
+Thanks <br />
+Alwahsh<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="21"></a>
+						<h2 class="page_content_topic">Floating/fixed Text</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=26744">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=120765" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Hi, I'm doing a website and for my link i would like drop-down menus at the top but i want it to stay at the top when you scroll. Can anybody point me to these. I have no idea how to do drop-down menus that look good. Take a look at http://www.runehq.com/ and look at the menus at the top. I would like some like that. Help would be great. Thanks. ToshNeox<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="22"></a>
+						<h2 class="page_content_topic">Fixed Bars On A Blog?</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=26980">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=120293" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">http://junksen.tumblr.com/<br />
+<br />
+i have this blog, and i want the right and left bars to be fixed so that when i scroll down/up, it only scrolls down the middle post area. is there any way to do this?<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="23"></a>
+						<h2 class="page_content_topic">Centering, Fixed Position</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=27571">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=119253" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Hi there,<br />
+<br />
+I'm trying to create a center column that holds information on my website that is centered to the page, but anchored in place so that if you re-size the window no other instances will overlap. I've taken the time to scrounge around the forum for an answer, but to no avail. I've bounced between using divs and tables for the past few days before finally realizing that I should probably ask for help - I'm a few weeks old to html, so I apologize if my question is somewhat rudimentary. I'm trying to find a way around actually cranking out the numbers and manually placing the images in the center.<br />
+<br />
+//EDIT//<br />
+Here's the code I'm using in the beginning, with css:<br />
+<br />
+	table<br />
+	{ <br />
+	margin-left: auto;<br />
+	margin-right: auto;<br />
+	}<br />
+<br />
+And here is my site if you want to see what I mean:<br />
+www.crazybunny.exofire.net/<br />
+<br />
+Thanks!<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="24"></a>
+						<h2 class="page_content_topic">Fixed Vs. Liquid Template</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=27833">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=118829" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">Hello! I recently uploaded a site I've been working on in Dreamweaver-<br />
+<br />
+www.gmerch.net<br />
+<br />
+My question is about templates. Currently the page will display with the main content below  the nav bar, and not to the right. I suspect this is an issue of having a liquid template and not a fixed one. Am I on the right track here? Is there a way to switch to fixed without having to copy all of the site content into a new document?<br />
+<br />
+Thanks!<br />
+<br />
+Toby<br /></div></div><div class="page_content_container">
+	<div class="page_title_content">
+		<table width="100%">
+			<tr>
+				<td class="link_page_title">
+					<div style="float:left; padding-right:10px;">
+					<div class="KonaBody">
+						<a name="25"></a>
+						<h2 class="page_content_topic">Fixed Header And Menu?</h2>
+					</div>
+					</div>
+				</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+										<a href="http://www.allwebdevhelp.com/html/html-help-tutorials.php?i=57618">Similar Tutorials</a>
+									</td>
+				<td class="link_page_view_content" width="150px;" align="right">
+					<a href="http://www.htmlforums.com/showthread.php?t=107091" rel="nofollow" target="_blank">View Content</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="max-height:500px; overflow:auto;">First of all im sorry if i double posted but i dunno what to search for and i tried lookin thru the forum b4 i posted ..<br />
+<br />
+Well, my problem is im a total beginner (noob) in html/css/javascript codin..but i was doin site to try coding..i divided my site into 4 main sections usin &lt;div&gt; as u can see in the pic  (pic at end of ma post), but the my problem is i had to copy the codes of the header and the two menus in every page, then after endin it, i misspelled something in a menu..so had to change it in every page (about 20),so i wanted to make the header and menus each in a file and make them fixed, so i put each in a html and made an iframe and inserted and it worked but (i knw too many buts XD) the side menu was a spry menu..it cant go out of its frame so i had to make it expanded menu<br />
+<br />
+So,My question is i wanna do the spry menu..so is there any other way to make the side menu &amp; header  each in a  document and link it to every page..so when i wanna change something..i can change from one document and it changes all, coz it seems tht iframes tht is the only thing tht gnna work.<br />
+<br />
+I knw i wrote alot..sorry &gt;.&lt;..well, i hope u cud help me out..thnx in advance <br />
+<br />
+<br /></div></div>		  
+		</div>		   
+	
+	</div>	   
+
+		</td>
+  </tr>
+</table>
+
+        </div>
+		</div>
+		
+	<div id="footer">
+	<div id="footer_text">
+		<a href="http://www.allwebdevhelp.com/privacy.php">Privacy</a>
+	</div>
+	</div>
+</div>
+
+ 
+
+    </div>
+
+{% endblock %}

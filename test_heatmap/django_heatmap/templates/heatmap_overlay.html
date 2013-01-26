@@ -1,0 +1,63 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head> <title>{% block title %}django-heatmap{% endblock %}</title> </head>
+
+<body>
+        <div id="content">
+			<iframe  style='position:absolute; top:0px; left:0px; width:100%; height:100%; 
+        		z-index:0' frameborder='no'>
+			</iframe>
+
+			<div style=' font-size:5em; position:absolute; top:0px; left:0px; z-index:2 ' id="over"></div>
+
+            {% block content %}{% endblock %}
+        </div>
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+var check_overlay = setInterval(
+function()
+{
+
+  $.ajax({
+             type: "GET",
+             url: "{% url celery-is_task_successful task.id %}",
+             dataType: 'json',
+			 async: true,
+             success: function(result) {
+                if(result.task.executed){
+				alert('acabo');	
+				clearInterval(check_overlay); 
+		
+			var img = $("<img />").attr('src', '{{MEDIA_URL}}/{{url_img}}')
+    		.load(function() {
+        if (!this.complete || typeof this.naturalWidth == "undefined" || this.naturalWidth == 0) {
+            alert('broken image!');
+        } else {
+            $("#over").append(img);
+        }
+    });				
+
+
+		}
+	
+	
+             }                                      
+         });
+}, 10000);
+
+    $("iframe").attr("src","{{url}}");
+}); 
+	
+</script>
+
+</body>
+</html>
