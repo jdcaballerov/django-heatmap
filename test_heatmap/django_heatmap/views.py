@@ -16,6 +16,8 @@ def show_click_events(request,res_x,res_y,height,width,url):
 	task = generate_heatmap(res_x,res_y,height,width,url)
 	url_img = base64.urlsafe_b64encode(url)
 	return render_to_response('heatmap_overlay.html', {'url':url,'task': task,'url_img':url_img+'.png'},context_instance = RequestContext(request))
+
+
  
 @csrf_exempt
 def save_click_event(request):
@@ -31,11 +33,3 @@ def save_click_event(request):
  
 	response = HttpResponse(message)
 	return response
-
-# TEST VIEW Includes JS code to send clicks to the server 
-def test_events(request):
-	return render_to_response("test.html", dict(user=request.user),context_instance = RequestContext(request))
-	
-
-	
-
